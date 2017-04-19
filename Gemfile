@@ -42,6 +42,12 @@ gem 'awesome_rails_console'
 gem 'will_paginate'
 # gem 'font-awesome-sass'
 
+group :development do
+  gem "capistrano", "~> 3.4"
+  gem "capistrano-rvm"
+  gem "capistrano-rails"
+end
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
